@@ -1,0 +1,28 @@
+https://www.youtube.com/watch?v=ThU13tikHQw
+
+upgrade pip
+py -m pip install --upgrade pip
+
+ctrl-shift-p to select interpreter - should be ./Script/python.exe
+
+
+
+To create virtual environment:
+-> py -m venv env
+To activate virtual environment:
+-> .\env\Scripts\activate
+To deactivate virtual environment:
+-> deactivate
+
+
+create virtual environment : 
+
+terminal
+> python -m venv <folder path>
+
+
+
+PS C:\jg\dev\ucb\dsa\binary-search > python -m venv C:\jg\dev\ucb\dsa\binary-search
+
+
+& C:\jg\dev\ucb\dsa\binary-search\Scripts\Activate.ps1

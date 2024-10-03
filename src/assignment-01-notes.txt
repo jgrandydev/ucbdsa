@@ -1,0 +1,20 @@
+
+
+
+
+
+
+I'm using VS Code and Py with the unittest package.
+ 
+assignment01.py is from my /src dir and contains source code for each problem.
+
+test_assignment01.py is from my /test dir and contain unit tests for each problem.
+
+I've also included ucb-dsa.zip which is a zip of my top-level folder in case you're a VS Code person and want to check my work inside VS Code.
+
+
+I'm attempting to submit Assignment 01 by uploading files.
+
+No matter what file(s) I attempt to upload when I click "Submit Assignment" I get error "Attached files must be greater than 0 bytes"
+
+My files are all greater than 0 bytes, such as 4KB or 7KB

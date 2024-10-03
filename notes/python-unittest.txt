@@ -1,0 +1,29 @@
+https://www.youtube.com/watch?v=-PHBRzL80Lk
+
+https://xebia.com/blog/setting-python-source-folders-vscode/
+
+
+https://stackoverflow.com/questions/53653083/how-to-correctly-set-pythonpath-for-visual-studio-code/62454184#62454184
+
+https://stackoverflow.com/questions/61894694/vs-code-no-python-unittest-tests-discovered
+
+https://stackoverflow.com/questions/53653083/how-to-correctly-set-pythonpath-for-visual-studio-code/62454184#62454184
+
+python -m unittest discover --verbose --start-directory "./preprocessing/" --pattern "test_*.py"
+
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./test",
+        "-p",
+        "*_test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.analysis.extraPaths": [
+        "./code"
+    ]
+}
+
+
